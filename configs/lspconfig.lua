@@ -25,3 +25,9 @@ lspconfig.bashls.setup {
   capabilities = capabilities,
   filetypes = {"sh"},
 }
+
+lspconfig.ruff_lsp.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = {"python"},
+}

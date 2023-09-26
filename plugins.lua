@@ -12,6 +12,7 @@ local plugins = {
       ensure_installed = {
         "gopls",
         "bash-language-server",
+        "ruff-lsp",
       },
     },
   },
@@ -30,6 +31,7 @@ local plugins = {
         "typescript",
         "tsx",
         "json",
+        "python",
         -- "vue", "svelte",
 
        -- low level
