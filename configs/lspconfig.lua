@@ -19,3 +19,9 @@ lspconfig.gopls.setup {
   capabilities = capabilities,
   filetypes = {"go"},
 }
+
+lspconfig.bashls.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = {"sh"},
+}
