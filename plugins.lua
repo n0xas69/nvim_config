@@ -12,6 +12,7 @@ local plugins = {
       ensure_installed = {
         "gopls",
         "bash-language-server",
+        "terraform-ls",
         "ruff-lsp",
       },
     },

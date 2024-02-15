@@ -31,3 +31,9 @@ lspconfig.ruff_lsp.setup {
   capabilities = capabilities,
   filetypes = {"python"},
 }
+
+lspconfig.terraform_ls.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = {"tf"},
+}
