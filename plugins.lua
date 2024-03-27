@@ -18,12 +18,23 @@ local plugins = {
     },
   },
   {
+    "kdheepak/lazygit.nvim",
+    	cmd = {
+    		"LazyGit",
+    		"LazyGitConfig",
+    		"LazyGitCurrentFile",
+    		"LazyGitFilter",
+    		"LazyGitFilterCurrentFile",
+    	}
+  },
+  {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
         -- defaults 
         "vim",
         "lua",
+        "terraform",
 
         -- web dev 
         "html",
