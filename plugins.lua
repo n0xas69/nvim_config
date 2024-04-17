@@ -13,6 +13,7 @@ local plugins = {
         "gopls",
         "bash-language-server",
         "terraform-ls",
+        "rust-analyzer",
         "ruff-lsp",
       },
     },
@@ -49,6 +50,7 @@ local plugins = {
        -- low level
         "c",
         "zig",
+        "rust",
         "go"
       },
     },
