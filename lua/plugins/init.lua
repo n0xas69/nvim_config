@@ -26,6 +26,7 @@ return {
         "rust-analyzer",
         "ruff-lsp",
         "lua-language-server",
+        "ansible-language-server",
       },
     },
   },
