@@ -21,6 +21,6 @@ External Requirements:
 
 ```sh
 rm -rf ~/.config/nvim && rm -rf ~/.local/state/nvim && rm -rf ~/.local/share/nvim
-git clone git@github.com:n0xas69/nvim_config.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone git@github.com:n0xas69/nvim_config.git ~/.config/nvim
 ```
 
