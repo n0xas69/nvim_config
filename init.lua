@@ -431,6 +431,9 @@ require('lazy').setup({
         clangd = {},
         gopls = {},
         pyright = {},
+        terraformls = {},
+        ansiblels = {},
+        bashls = {},
         -- rust_analyzer = {},
 
         lua_ls = {
