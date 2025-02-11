@@ -2,10 +2,7 @@
 
 ### Install Neovim
 
-Kickstart.nvim targets *only* the latest
-['stable'](https://github.com/neovim/neovim/releases/tag/stable) and latest
-['nightly'](https://github.com/neovim/neovim/releases/tag/nightly) of Neovim.
-If you are experiencing issues, please make sure you have the latest versions.
+Install nvim > v10
 
 ### Install External Dependencies
 
@@ -24,6 +21,6 @@ External Requirements:
 
 ```sh
 rm -rf ~/.config/nvim && rm -rf ~/.local/state/nvim && rm -rf ~/.local/share/nvim
-git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone git@github.com:n0xas69/nvim_config.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
