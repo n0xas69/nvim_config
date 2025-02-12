@@ -29,5 +29,6 @@ git clone git@github.com:n0xas69/nvim_config.git ~/.config/nvim
 | \<leader\>fw   | find word in working directory        |
 | \<leader\>\<leader\>   | find file in buffer (file in open file)       |
 | \<leader\>e   | open nvimtree (file explorer on the left)        |
+| f ??   | move cursor on the ?? double char you enter.            |
 
 
