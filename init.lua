@@ -13,7 +13,7 @@ vim.g.have_nerd_font = true
 vim.opt.number = true
 -- You can also add relative line numbers, to help with jumping.
 --  Experiment for yourself to see if you like it!
--- vim.opt.relativenumber = true
+vim.opt.relativenumber = true
 
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
@@ -83,6 +83,16 @@ vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- remap z to w for azerty keyboard
 vim.keymap.set('n', 'z', 'w', { noremap = true, silent = true })
+vim.keymap.set('n', '&', '1', { noremap = true, silent = true })
+vim.keymap.set('n', 'é', '2', { noremap = true, silent = true })
+vim.keymap.set('n', '"', '3', { noremap = true, silent = true })
+vim.keymap.set('n', '\'', '4', { noremap = true, silent = true })
+vim.keymap.set('n', '(', '5', { noremap = true, silent = true })
+vim.keymap.set('n', '-', '6', { noremap = true, silent = true })
+vim.keymap.set('n', 'è', '7', { noremap = true, silent = true })
+vim.keymap.set('n', '_', '8', { noremap = true, silent = true })
+vim.keymap.set('n', 'ç', '9', { noremap = true, silent = true })
+vim.keymap.set('n', 'à', '0', { noremap = true, silent = true })
 
 -- Diagnostic keymaps
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
