@@ -29,6 +29,7 @@ git clone git@github.com:n0xas69/nvim_config.git ~/.config/nvim
 | \<leader\>fw   | find word in working directory        |
 | \<leader\>\<leader\>   | find file in buffer (file in open file)       |
 | \<leader\>e   | open nvimtree (file explorer on the left)        |
+| \<leader\>lg   | open lazygit (git terminal client)        |
 | f ??   | move cursor on the ?? double char you enter. Exemple with this line, you are at begening of the line, you want to go to "enter" word : **sen**           |
 
 
