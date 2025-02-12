@@ -21,7 +21,7 @@ git clone git@github.com:n0xas69/nvim_config.git ~/.config/nvim
 
 ### Shortcut
 
-<leader> is space key
+\<leader\> is space key
 
 | shorcut      | Description |
 | ----------- | ----------- |
