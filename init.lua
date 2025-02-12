@@ -642,6 +642,7 @@ require('lazy').setup({
   require 'custom.plugins.lazygit',
   require 'custom.plugins.nvimtree',
   require 'custom.plugins.lualine',
+--  require 'custom.plugins.harpoon',
 
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
   -- { import = 'custom.plugins' },
