@@ -94,6 +94,9 @@ vim.keymap.set('n', '_', '8', { noremap = true, silent = true })
 vim.keymap.set('n', 'ç', '9', { noremap = true, silent = true })
 vim.keymap.set('n', 'à', '0', { noremap = true, silent = true })
 
+-- move cursor to word you want with f and 2 first char you want to go
+vim.keymap.set('n', 'f', '<Plug>Sneak_s', { noremap = true, silent = true })
+
 -- Diagnostic keymaps
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 
@@ -655,6 +658,7 @@ require('lazy').setup({
   require 'custom.plugins.lazygit',
   require 'custom.plugins.nvimtree',
   require 'custom.plugins.lualine',
+  require 'custom.plugins.sneak',
 --  require 'custom.plugins.harpoon',
 
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
