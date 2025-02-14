@@ -2,6 +2,7 @@
 
 **External Requirements:**
 - Packages : `git`, `make`, `unzip`, C Compiler (`gcc`), `fzf`, `ripgrep`
+- nodejs LTS for LSP : https://github.com/nodesource/distributions
 - Clipboard tool
 - A [Nerd Font](https://www.nerdfonts.com/): hack is good, contain all icons
 - Language Setup:
