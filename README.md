@@ -29,7 +29,7 @@ nvim
 | \<leader\>\<leader\>   | find file in buffer (file in open file)       |
 | \<leader\>e   | open nvimtree (file explorer on the left)        |
 | \<leader\>lg   | open lazygit (git terminal client)        |
-| f ??   | move cursor on the ?? double char you enter. Exemple with this line, you are at begening of the line, you want to go to "enter" word : **sen**           |
+| f ??   | move cursor on the ?? double char you enter. Exemple with this line, you are at begening of the line, you want to go to "enter" word : **fen**           |
 
 This conf remap key for azerty comfort,
 `w` is remap to `z` for word forward and all numbers are remapped so you no longer need to use shift.
