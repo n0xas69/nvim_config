@@ -1,3 +1,5 @@
+Personnal neovim conf based on https://github.com/nvim-lua/kickstart.nvim
+
 ### Install
 
 **External Requirements:**
