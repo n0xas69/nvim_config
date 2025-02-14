@@ -1,22 +1,20 @@
 ### Install External Dependencies
 
 External Requirements:
-- Basic utils: `git`, `make`, `unzip`, C Compiler (`gcc`)
-- [ripgrep](https://github.com/BurntSushi/ripgrep#installation)
-- fzf package
+- Packages : `git`, `make`, `unzip`, C Compiler (`gcc`), `fzf`, `ripgrep`
 - Clipboard tool
-- A [Nerd Font](https://www.nerdfonts.com/): optional, provides various icons
-  - if you have it set `vim.g.have_nerd_font` in `init.lua` to true
+- A [Nerd Font](https://www.nerdfonts.com/): hack is good, contain all icons
 - Language Setup:
   - If you want to write Typescript, you need `npm`
   - If you want to write Golang, you will need `go`
   - etc.
 
 
-
+### Clear old nvim config and install this repos
 ```sh
 rm -rf ~/.config/nvim && rm -rf ~/.local/state/nvim && rm -rf ~/.local/share/nvim
 git clone git@github.com:n0xas69/nvim_config.git ~/.config/nvim
+nvim
 ```
 
 ### Shortcut
