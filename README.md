@@ -31,7 +31,6 @@ nvim
 | f ??   | move cursor on the ?? double char you enter. Exemple with this line, you are at begening of the line, you want to go to "enter" word : **sen**           |
 
 This conf remap key for azerty comfort,
-`w` is remap to `z` for move word
-every number are remap so you dont need to use "shift"
+`w` is remap to `z` for word forward and all numbers are remapped so you no longer need to use shift.
 
 
