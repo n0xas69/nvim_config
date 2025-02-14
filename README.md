@@ -1,6 +1,6 @@
-### Install External Dependencies
+### Install
 
-External Requirements:
+**External Requirements:**
 - Packages : `git`, `make`, `unzip`, C Compiler (`gcc`), `fzf`, `ripgrep`
 - Clipboard tool
 - A [Nerd Font](https://www.nerdfonts.com/): hack is good, contain all icons
@@ -10,7 +10,7 @@ External Requirements:
   - etc.
 
 
-### Clear old nvim config and install this repos
+**clear old nvim conf and just clone this repos**
 ```sh
 rm -rf ~/.config/nvim && rm -rf ~/.local/state/nvim && rm -rf ~/.local/share/nvim
 git clone git@github.com:n0xas69/nvim_config.git ~/.config/nvim
